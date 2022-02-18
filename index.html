@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+	
+  </head>
+  
+  <body>
+	<audio id="my_audio" src="music.mp3" loop="loop"></audio>
+	<div class="container">
+	<h1>Let's Play Typing Game!</h1>
+    <img src="Cute Icon.gif"/>
+    
+	
+	<hr>
+	<!--Input Word-->
+    <h3>Instruction :<div>Type as many words in <span class="text-success" id="seconds">20</span> seconds!</div></h3>
+	<p>&nbsp</p>
+	
+	<h2 class="display-2 mb-5" id="current-input">WELCOME</h2>
+	
+	<div class="wordWrapper">
+			<h2 class="word"></h2>
+	</div>
+	
+	<input type="text" placeholder="Type The Word" id="word-input" autofocus>
+	
+	<!--Time and Score-->
+	<div class="wrapper">
+		<div class="timeWrapper">
+			<h3>Timer</h3>
+			<span id="time">20</span>
+		</div>
+		<div class="scoreWrapper">
+			<h3>Score</h3>
+			<span id="score">0</span>
+		</div>
+		
+	</div>
+	<h3 id="message"></h3>
+    </div>
+
+	<script src="myform.js"></script>
+  </body>
+</html>

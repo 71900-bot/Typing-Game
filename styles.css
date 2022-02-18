@@ -1,0 +1,103 @@
+body 
+{
+	text-align:Center;
+	font-family: Sans-serif;
+	background-color: Pink;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+input {
+  text-align:Center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container 
+{
+	width:1000px;
+	padding:6px;
+	margin:50px auto;
+	background: #FAFAFA;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 1px 4px 25px 20px rgba(0, 0, 0, 0.25);
+	border: 6px solid #f2f2f2;
+	-moz-box-shadow: 1px 4px 15px 20px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 1px 4px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.wrapper
+{
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	padding: 5px;
+	height: 250px;
+}
+
+
+.timeWrapper 
+{
+	float: left;
+}
+
+.scoreWrapper 
+{
+	float: right;
+}
+
+.matching 
+{
+	background-color: green;
+}
+
+button 
+{
+	background-color: #ff0000;
+	border: 0;
+	outline: 0;
+	font-size: 22px;
+	box-shadow: 0px 10px 0px 0px #ff6d47;
+	border-radius: 7px;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+button:active 
+{
+	box-shadow: 2px 2px 2px 2px;
+	transform: translate(0px, 3px);
+	-webkit-transform: translate(0px, 3px);
+}
+
+.scoreWrapper h3, .scoreWrapper span, .timeWrapper h3, .timeWrapper span
+{
+    font-size: 40px;
+    color: #ff0047;
+}
+
+.wordWrapper {
+	margin-top: 50px;
+}
+
+.word span{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #ECF0F1;
+}
+
